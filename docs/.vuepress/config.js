@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'SikaCode',
+    description: '让编码更简单',
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
@@ -9,11 +9,26 @@ module.exports = {
         // 引入自定义js
         ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
     ],
-    plugins: {
-        'fulltext-search': true, // disabled.
-        '@vuepress/back-to-top': true, // disabled.
-        '@vuepress/nprogress': true // disabled.
-    },
+    plugins: [
+        ['fulltext-search', true],
+        ['@vuepress/active-header-links', true],
+        ['@vuepress/back-to-top', true],
+        // 看板娘
+        ['vuepress-plugin-helper-live2d'],
+        // 光标插件
+        ['cursor-effects', {
+            size: 2, // size of the particle, default: 2
+            shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
+            zIndex: 999999999, // z-index property of the canvas, default: 999999999
+        }],
+        ['vuepress-plugin-code-copy', {
+            align: 'bottom',
+            color: '#27b1ff',
+            backgroundTransition: true,
+            backgroundColor: '#0075b8',
+            successText: '复制成功'
+        }]
+    ],
     themeConfig: {
         logo: '/logo.png',
         sidebar: [
@@ -71,6 +86,13 @@ module.exports = {
                         ]
                     }
                 ]
+            },
+            {
+                text: '开源地址',
+                items: [
+                    {text: 'Gitee', link: 'https://gitee.com/sikadai/sika-code', target: '_blank'},
+                    {text: 'Github', link: 'https://github.com/sika-code-cloud/sika-code', target: '_blank'}
+                ]
             }
         ],
         // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
@@ -78,14 +100,6 @@ module.exports = {
         // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
         prevLinks: true,
         lastUpdated: 'Last Updated', // string | boolean
-
-        // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: 'https://gitee.com/sikadai/sika-code',
-        // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
-        // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-        repoLabel: '查看源码',
-
-        // 以下为可选的编辑链接选项
 
         // 假如你的文档仓库和项目本身不在一个仓库：
         docsRepo: 'https://gitee.com/sikadai/sika-code-doc',
