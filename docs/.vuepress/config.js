@@ -9,7 +9,7 @@ module.exports = {
 
   title: "vuepress-theme-vdoing",
   description: '一个基于VuePress的 知识管理&博客 主题',
-  base: '/sika-code-doc/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
@@ -192,7 +192,12 @@ module.exports = {
           return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
         },
       }
-    ]
+    ],
+    ['cursor-effects', {
+      size: 2, // size of the particle, default: 2
+      shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
+      zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    }]
   ],
 
   markdown: {
