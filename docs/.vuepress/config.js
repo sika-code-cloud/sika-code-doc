@@ -197,7 +197,29 @@ module.exports = {
       size: 2, // size of the particle, default: 2
       shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
       zIndex: 999999999, // z-index property of the canvas, default: 999999999
-    }]
+    }],
+    // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+    //   width: '300px', // 默认 260px
+    //   title: '消息提示',
+    //   body: [
+    //     {
+    //       type: 'title',
+    //       content: '添加冴羽好友入前端交流群',
+    //       style: 'text-aligin: center;'
+    //     },
+    //     {
+    //       type: 'image',
+    //       src: 'https://cdn.jsdelivr.net/gh/mqyqingfeng/picture/IMG_3516.JPG'
+    //     }
+    //   ],
+    //   footer: [
+    //     {
+    //       type: 'button',
+    //       text: '打赏',
+    //       link: '/donate'
+    //     }
+    //   ]
+    // }]
   ],
 
   markdown: {
@@ -209,5 +231,8 @@ module.exports = {
   extraWatchFiles: [
     '.vuepress/config.js',
     '.vuepress/config/htmlModules.js',
-  ]
+  ],
+  chainWebpack: config => {
+    config.resolve.alias.set('core-js/library/fn', 'core-js/features')
+  }
 }
