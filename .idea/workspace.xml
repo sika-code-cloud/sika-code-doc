@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b132ba-b36b-45cd-beca-2174953e16c3" name="Default Changelist" comment="添加组件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/foo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/foo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="17b132ba-b36b-45cd-beca-2174953e16c3" name="Default Changelist" comment="添加组件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659743767222</updated>
       <workItem from="1659743779518" duration="13440000" />
+      <workItem from="1659966809008" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="添加组件">
       <created>1659748394679</created>
@@ -92,6 +84,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加组件" />
@@ -102,10 +95,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="452" y="465" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1659748404260" />
-    <state x="2031" y="190" width="1234" height="861" key="dock-window-1" timestamp="1659778530298">
+    <state x="2031" y="190" width="1234" height="861" key="dock-window-1" timestamp="1659967442425">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="2031" y="190" width="1234" height="861" key="dock-window-1/0.0.3440.1400@0.0.3440.1400" timestamp="1659778530298" />
+    <state x="2031" y="190" width="1234" height="861" key="dock-window-1/0.0.3440.1400@0.0.3440.1400" timestamp="1659967442425" />
     <state x="563" y="423" width="594" height="626" key="find.popup" timestamp="1659771545109">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
