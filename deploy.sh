@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/sika-code-cloud/sika-code-doc.git master:gh-pages
+git push -f git@github.com:sika-code-cloud/sika-code-cloud.github.io.git main
 
 cd -
