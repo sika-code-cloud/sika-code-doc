@@ -21,6 +21,10 @@ notices: # 可选的
     title: ✨ LiteFlowX v1.0.3 新版本发布！
     content: '<div><p>2022-08-02</p><ul><li>[新增]支持替补组件特性</li><li>[新增]支持node关键字的组件名包装特性</li></ul></div><p style="text-align: right;"><a href="/pages/liteflowx/">查看详情</a></p>'
     isHtmlContent: true
+  - id: liteFlowX-1.0.3e333
+    title: ✨ LiteFlowX v1.0.3 新版本发布！eqweqwe
+    content: '<div><p>2022-08-02</p><ul><li>[新增]支持替补组件特性</li><li>[新增]支持node关键字的组件名包装特性</li></ul></div><p style="text-align: right;"><a href="/pages/liteflowx/">查看详情</a></p>'
+    isHtmlContent: true
 ---
 
 <Notice :data="$frontmatter.notices"/>
