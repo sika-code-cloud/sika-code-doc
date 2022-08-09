@@ -20,10 +20,15 @@
 
 
 module.exports = {
+  sidebarT: `
+    <a href="https://docs.eoapi.io/?utm_source=ZZ080101" target="_blank">
+      <img class="no-zoom" height="60" width="224" src="/img/donate/eoapi-banner.gif">
+    </a>
+  `,
   // 万维广告
   pageT: `
-    <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
-    <style>
+  <div class="wwads-cn wwads-horizontal page-wwads" data-id="129"></div>
+  <style>
       .page-wwads{
         width:100%!important;
         min-height: 0;
