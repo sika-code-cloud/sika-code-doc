@@ -96,8 +96,8 @@ export default {
 }
 .confirmButtonClass{
   color: #FFF;
-  background-color: #e01e5a;
-  border-color: #e01e5a;
+  background-color: #1890ff;
+  border-color: #1890ff;
 }
 .confirmButtonClass:hover, .confirmButtonClass:focus{
   color: #FFF;

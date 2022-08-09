@@ -1,7 +1,7 @@
 // Plugin Config
 module.exports = [
     [require('../plugins/love-me'), { // 鼠标点击爱心特效
-        color: '#E01E5A', // 爱心颜色，默认随机色
+        color: '#1890ff', // 爱心颜色，默认随机色
         excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
 

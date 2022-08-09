@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /img/logo.svg
-heroText: LiteFlow
+heroImage: /img/logo.png
+heroText: SikaCode
 tagline: 🚀轻量，快速，稳定可编排的组件式规则引擎
 actionText: 🧩新版本，全新规则表达式！
 actionLink: /pages/5816c5/
@@ -17,15 +17,13 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 notices: # 可选的
-  - id: liteFlowX-1.0.3
+  - id: liteFlowX-1.0.3ererer
     title: ✨ LiteFlowX v1.0.3 新版本发布！
     content: '<div><p>2022-08-02</p><ul><li>[新增]支持替补组件特性</li><li>[新增]支持node关键字的组件名包装特性</li></ul></div><p style="text-align: right;"><a href="/pages/liteflowx/">查看详情</a></p>'
     isHtmlContent: true
 ---
 
 <Notice :data="$frontmatter.notices"/>
-
-<br/><br/>
 
 ## 🌈特别赞助
 
@@ -55,10 +53,10 @@ notices: # 可选的
 .become-sponsor{
   padding: 8px 20px;
   display: inline-block;
-  color: #E01E5A;
+  color: #1890ff;
   border-radius: 30px;
   box-sizing: border-box;
-  border: 2px solid #E01E5A;
+  border: 2px solid #1890ff;
 }
 </style>
 

@@ -5,7 +5,7 @@ const plugins = require('./config/plugins.js');
 module.exports = {
 
   theme: 'vdoing', // 使用依赖包主题
-  title: "LiteFlow",
+  title: "SikaCode",
   description: '一个轻量，快速，稳定可编排的组件式规则引擎',
   base: "/",
   head,
