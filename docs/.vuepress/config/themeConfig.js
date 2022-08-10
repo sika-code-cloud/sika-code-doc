@@ -43,8 +43,8 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-        name: '铂赛东', // 必需
-        href: 'https://gitee.com/bryan31' // 可选的
+        name: 'SikaDai', // 必需
+        href: 'https://gitee.com/sikadai' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
         // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -52,23 +52,23 @@ module.exports = {
             {
                 iconClass: 'icon-youjian',
                 title: '发邮件',
-                link: 'mailto:weenyc31@163.com'
+                link: 'mailto:sikacode@163.com'
             },
             {
                 iconClass: 'icon-gitee',
                 title: 'Gitee',
-                link: 'https://gitee.com/dromara/liteFlow'
+                link: 'https://gitee.com/sikadai/sika-code'
             },
             {
                 iconClass: 'icon-github',
                 title: 'GitHub',
-                link: 'https://github.com/dromara/liteflow'
+                link: 'https://github.com/sika-code-cloud/sika-code'
             }
         ]
     },
     footer: { // 页脚信息
-        createYear: 2020, // 博客创建年份
-        copyrightInfo: '铂赛东 | MIT License', // 博客版权信息，支持a标签
+        createYear: 2022, // 博客创建年份
+        copyrightInfo: 'SikaDai | MIT License', // 博客版权信息，支持a标签
     },
     htmlModules,
 }

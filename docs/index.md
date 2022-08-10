@@ -9,7 +9,7 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 🍀轻巧强大
     details: 小身躯蕴藏着大能量，简单的学习成本，几分钟就能上手。却可以完成复杂的规则编排。
-  - title: 🌸优雅高效
+  - title: 🌸简单优雅
     details: 拥有独特的设计理念，所有逻辑皆为组件。稳定运行于各大公司的核心系统上，性能卓越。
   - title: 🌼支持丰富
     details: 不管你是何种架构，都能支持。任意编排，多种规则格式，平滑热刷新，多级嵌套，外部存储扩展等等。
@@ -50,15 +50,15 @@ notices: # 可选的
 
 ``` xml
 <dependency>
-    <groupId>com.yomahub</groupId>
-    <artifactId>liteflow-spring-boot-starter</artifactId>
-    <version>2.8.3</version>
+    <groupId>io.github.sika-code-cloud</groupId>
+    <artifactId>sika-code-core</artifactId>
+    <version>${io.github.sika-code.version}</version>
 </dependency>
 ```
 
 :::tip 新版本稳定吗？
 
-我们每一次发布版本，都会补充大量的测试用例。截止到目前，LiteFlow一共有880多个测试用例，几乎覆盖到每一个已有功能的细节点。
+我们每一次发布版本，都会补充大量的测试用例。截止到目前，SikaCode一共有880多个测试用例，几乎覆盖到每一个已有功能的细节点。
 
 并且我们会跑超大量的并发压力测试，以上所有的通过后，我们才会谨慎的提交代码覆盖主分支进行发版。
 
@@ -71,27 +71,17 @@ notices: # 可选的
 
 ## 🎉致谢
 
-LiteFlow自从2020年开源以来，获得了很多人的支持。目前社区群800多人，Gitee上2.2k Stars，Github上600多Stars，感谢各位支持者的一路同行，我们会努力把国产的规则引擎做到极致。
-
-LiteFlow在[2021](https://www.oschina.net/project/top_cn_2021)获得“OSC 年度最受欢迎中国开源软件”殊荣。
-
-LiteFlow在2022年获得“Gitee最有价值开源项目“奖项（GVP）。
-
-感谢OSCHINA和Gitee官方平台对LiteFlow项目的推荐和肯定。
-
-LiteFlow首页的背景由插画师`森阳`提供，感谢她的创作，如需要插画商业合作小伙伴可以联系她：
-
-> 邮件：sssenyang@qq.com | 微信：ArtSenyang
+SikaCode自从2020年开源以来，获得大量同学的肯定和支持，让我们更加坚信开源让编码更简单的宗旨
 
 <br/>
 
 ## 🏡代码托管
 
-<a href='https://gitee.com/dromara/liteFlow' target="_blank">
+<a href='https://gitee.com/sikadai/sika-code' target="_blank">
     <img class="no-zoom" src="https://img.shields.io/badge/Gitee-red?logo=gitee&logoColor=white&style=for-the-badge"/>
 </a>
 
-<a href="https://github.com/dromara/liteflow" target="_blank">
+<a href="https://github.com/sika-code-cloud/sika-code" target="_blank">
     <img class="no-zoom" src="https://img.shields.io/badge/Github-blue?logo=github&logoColor=white&style=for-the-badge"/>
 </a>
 
@@ -99,7 +89,7 @@ LiteFlow首页的背景由插画师`森阳`提供，感谢她的创作，如需�
 
 ## 💪🏻参与开发
 
-欢迎各路好汉一起来参与完善 LiteFlow，我们期待你的 PR！
+欢迎各路好汉一起来参与完善 SikaCode，我们期待你的 PR！
 
 如果想贡献，请先查看[参与开发](/pages/ae4dd5/)。
 
