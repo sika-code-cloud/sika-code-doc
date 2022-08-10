@@ -3,7 +3,7 @@ home: true
 heroImage: /img/logo.png
 heroText: SikaCode
 tagline: 🚀轻量，快速，稳定可编排的组件式规则引擎
-actionText: 🧩新版本，全新规则表达式！
+actionText: 🧩开始使用 ->
 actionLink: /pages/5816c5/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 features: # 可选的
@@ -17,54 +17,13 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 notices: # 可选的
-  - id: liteFlowX-1.0.3ererer
-    title: ✨ LiteFlowX v1.0.3 新版本发布！
-    content: '<div><p>2022-08-02</p><ul><li>[新增]支持替补组件特性</li><li>[新增]支持node关键字的组件名包装特性</li></ul></div><p style="text-align: right;"><a href="/pages/liteflowx/">查看详情</a></p>'
-    isHtmlContent: true
-  - id: liteFlowX-1.0.3e333
-    title: ✨ LiteFlowX v1.0.3 新版本发布！eqweqwe
-    content: '<div><p>2022-08-02</p><ul><li>[新增]支持替补组件特性</li><li>[新增]支持node关键字的组件名包装特性</li></ul></div><p style="text-align: right;"><a href="/pages/liteflowx/">查看详情</a></p>'
+  - id: SikaCode 3.1.0
+    title: ✨ SikaCode 3.1.0 新版本发布！
+    content: '<div><p>2022-09-01</p><ul><li>[新增]支持缓存组件</li><li>[新增]支持批处理内核</li></ul></div><p style="text-align: right;"><a href="/pages/liteflowx/">查看详情</a></p>'
     isHtmlContent: true
 ---
 
 <Notice :data="$frontmatter.notices"/>
-
-## 🌈特别赞助
-
-::: cardList
-```yaml
-- name: ERD Online
-  desc: 开箱即用的数据库建模、产品版本管理软件
-  avatar: /img/donate/erd.png
-  link: https://portal.zerocode.net.cn/
-  bgColor: '#f8c567' # 可选，默认var(--bodyBg)。颜色值有#号时请添加单引号
-  textColor: '#1f2328' # 可选，默认var(--textColor)
-- name: Eoapi
-  desc: 开源 API 管理工具，接口文档、接口测试、Mock...
-  avatar: /img/donate/eoapi-logo.jpg
-  link: https://docs.eoapi.io/?utm_source=ZZ080101
-  bgColor: '#00785A'
-  textColor: '#FFFFFF'
-```
-:::
-<br/>
-
-<p align="center">
-  <a class="become-sponsor" href="/pages/fb599d/">成为赞助者</a>
-</p>
-
-<style>
-.become-sponsor{
-  padding: 8px 20px;
-  display: inline-block;
-  color: #1890ff;
-  border-radius: 30px;
-  box-sizing: border-box;
-  border: 2px solid #1890ff;
-}
-</style>
-
-<br/>
 
 ## 🍬特性
 * **组件定义统一：** 所有的逻辑都是组件，为所有的逻辑提供统一化的组件实现方式，小身材，大能量。
@@ -89,7 +48,7 @@ notices: # 可选的
 
 ## ✨最新版本
 
-```xml
+``` xml
 <dependency>
     <groupId>com.yomahub</groupId>
     <artifactId>liteflow-spring-boot-starter</artifactId>
