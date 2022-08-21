@@ -1,7 +1,7 @@
 // Head Config
 module.exports = [
   ['link', { rel: 'icon', href: '/img/logo.png' }], //favicons，资源放在public文件夹
-  ['meta', { name: 'keywords', content: 'liteflow,liteflow官网,规则引擎,流程引擎,开源,java规则引擎,rule engine,open source'}],
+  ['meta', { name: 'keywords', content: 'sikacode,sikacode官网,标准框架,标准脚手架,开源,java标准框架,Standard framework,open source'}],
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
   ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉

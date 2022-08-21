@@ -6,7 +6,7 @@ module.exports = {
 
   theme: 'vdoing', // 使用依赖包主题
   title: "SikaCode",
-  description: '一个轻量，快速，稳定可编排的组件式规则引擎',
+  description: '一个轻量，稳定，标准的基础框架',
   base: "/",
   head,
   themeConfig,
